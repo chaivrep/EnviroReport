@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "collection-api": {},
+    "nvd3js": {},
+    "d3js-package": {},
+    "rickshaw": {},
+    "moment": {},
+    "amcharts": {},
+    "bootstrap-3": {}
+  }
+}

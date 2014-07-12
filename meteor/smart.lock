@@ -1,0 +1,51 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "collection-api": {},
+      "nvd3js": {},
+      "d3js-package": {},
+      "rickshaw": {},
+      "moment": {},
+      "amcharts": {},
+      "bootstrap-3": {}
+    },
+    "packages": {
+      "collection-api": {
+        "git": "https://github.com/crazytoad/meteor-collectionapi.git",
+        "tag": "v0.1.15",
+        "commit": "b62c51f387287726cf3b64077f7bc69604ec2f5e"
+      },
+      "nvd3js": {
+        "git": "https://github.com/ouuyeah/nvd3js.git",
+        "tag": "v0.1.0",
+        "commit": "89a8c66bb3b35d25900d31195ae0b318e4176ddb"
+      },
+      "d3js-package": {
+        "git": "https://github.com/acidsound/d3js-package.git",
+        "tag": "v0.5.1",
+        "commit": "7d3eda4fca00782624ef8e99db84488711ba17e3"
+      },
+      "rickshaw": {
+        "git": "https://github.com/bitIO/meteor-rickshaw.git",
+        "tag": "v0.0.2",
+        "commit": "3387214eb34482979d65ddde99bad0cf59e5cade"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      },
+      "amcharts": {
+        "git": "https://github.com/em0ney/meteor-amcharts.git",
+        "tag": "v0.0.2",
+        "commit": "b32b6bb06cf13e474f21198159fc4166ee2bcc60"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      }
+    }
+  }
+}

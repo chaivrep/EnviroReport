@@ -1,0 +1,49 @@
+<head>
+  <title>enviroReport</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  		<div class="container">
+    		<div class="navbar-header">
+		      <a class="navbar-brand" href="#">Temperature & Humidity</a>
+    		</div>
+  		</div>
+	</nav>
+	<div class="container">
+  		{{> dashboard}}
+	</div>
+</body>
+
+
+<template name="dashboard">
+	<div class="row">
+			<div class="panel panel-primary">
+		  		<div class="panel-heading">
+		    		<h3 class="panel-title">Current Data as of <span id='currDateTime'></span></h3>
+		    		{{jscharts}}
+		  		</div>
+		  		<div class="panel-body">
+		  			<div class="col-md-6">
+		  				<h4>Temperature</h4>
+						<div id="tempchartdiv" style="width: 100%; height: 150px;"></div>
+					</div>
+					<div class="col-md-6">
+						<h4>Humidity</h4>
+						<div id="humidchartdiv" style="width: 100%; height: 150px;"></div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="row">
+		<div class="panel panel-primary">
+	  		<div class="panel-heading">
+	    		<h3 class="panel-title">Historical Data</h3>
+	  		</div>
+	  		<div class="panel-body">
+				<div id="chartdiv" style="width: 100%; height: 300px;"></div>
+		 	</div>
+		</div>
+	</div>
+</template>
+
