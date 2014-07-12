@@ -130,7 +130,8 @@ if (Meteor.isClient) {
   //Load up the existing points so they can be displayed on startup
   Meteor.startup(function () {
     Meteor.subscribe('points', {}, onReady = function() {
-      var d = EnviroPoints.find();
+      //Pull all but the last record; it will be added by the reactive function.
+      var d = EnviroPoints.find({}, {sort: {time: 1}, limit: (limit - 1)});
       d.forEach(function(point) {
         updateChartAndGauges(point);
       });
