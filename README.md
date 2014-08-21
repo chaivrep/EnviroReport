@@ -14,11 +14,8 @@ To get started:
 ##Set Up the Meteor App
 
 1. Using your Terminal, install [Meteor.js](http://docs.meteor.com/#quickstart): ```$ curl https://install.meteor.com | /bin/sh```
-
 2. Again using your terminal, install Meteorite, the Meteor package manager (similar to Node's npm): ```$ npm install -g meteorite```
-
 3. Clone this repository and navigate to the 'meteor' directory.
-
 4. Install the package dependencies with:```$ mrt install```
 5. You can check out your app locally using ```$ meteor``` Go to http://localhost:3000 to see it in action.  There's nothing exciting going on because it's not receiving any data. You can simulate data by opening another Terminal and going to the localTestFile directory. Run the file using ```$ node enviroReportLocalTest.js``` (If you don't have Node.js, you can get it [here](http://nodejs.org/))
 6. Once you see it working, you can deploy the app to Meteor's hosting service. ```$ meteor deploy [somename].meteor.com```
